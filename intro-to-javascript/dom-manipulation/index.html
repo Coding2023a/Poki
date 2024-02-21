@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="dom-manipulation.js" defer></script>
+    <title>DOM  Manipulation Examples</title>
+</head>
+<body>
+    <div>
+        <h1 id="change me">click the button to change me!</h1>
+        <button onclick="changetext()" >change text</button>
+    </div>
+
+    <div>
+        <button onclick="toggleVisibility()">toggle Visibility</button>
+        <div id="hiddenElement" class="hidden">this element is hidden by defalt!</div>
+    </div>
+    
+        <div>
+            <ul id="myList">
+                <li>Itom 1</li>
+                <li>Itom 2</li>
+                <li>Itom 3</li>
+            </ul>
+
+            <button onclick="addItom()">AddItom</button>
+        </div>
+</body>
+</html>
